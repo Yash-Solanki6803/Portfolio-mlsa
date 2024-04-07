@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "GPT-3 Landing Page",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A website where people can know what GPT-3 is and how it works. It is a landing page for OpenAI's GPT-3.",
+    url: "https://yash-solanki6803.github.io/gpt-3/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Crypto Verse",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A website where people can know about cryptocurrencies and their prices. It is a landing page for cryptocurrencies.",
+    url: "https://crypto-verse-by-yash.netlify.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Financial consultancy services",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A website where people can know about financial consultancy services and how they can help them in their business.",
+    url: "https://yash-solanki6803.github.io/SolankiBrothers/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Cybersecurity consultancy services",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A website where people can know about cybersecurity consultancy services and how they can help them in their business.",
+    url: "https://cybershakha.com/",
   },
 ];
 
