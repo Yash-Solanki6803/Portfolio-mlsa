@@ -13,7 +13,7 @@ import PropTypes from "prop-types";
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
@@ -22,17 +22,27 @@ import PropTypes from "prop-types";
  */
 import image from "../images/author-in-suit.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText =
+  "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "10rem", left: "2rem", width: "17rem" , color : "white" }}>
+      <div
+        style={{ position: "absolute", top: "10rem", left: "2rem", width: "17rem", color: "white" }}
+      >
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+      <div
+        style={{
+          position: "absolute",
+          bottom: "3rem",
+          left: "50%",
+          animation: "bounce 2s infinite",
+        }}
+      >
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
     </section>
